@@ -40,7 +40,7 @@ while True:
             else:
                 print("Not a valid direction!")
     elif tile == (2,2):
-        print("You can travel: (W)est or (S)outh.")
+        print("You can travel: (S)outh or (W)est.")
         while direction_input not in "ws":
             direction_input = input("Direction: ").lower()
             if direction_input == "w":
